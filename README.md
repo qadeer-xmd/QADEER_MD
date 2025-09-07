@@ -1,65 +1,47 @@
-<p align="center">
-  <img src="https://files.catbox.moe/7nf8cb.jpg" width="300" height="300"/>
-</p>
-
-<h1 align="center">⚡ QADEER_MD ⚡</h1>
-<h3 align="center">Your All-In-One Stylish WhatsApp Bot 🚀</h3>
+# 𝐐𝐀𝐃𝐄𝐄𝐑_𝐌𝐃 🖤
 
 <p align="center">
-  <a href="https://github.com/qadeer-xmd/QADEER_MD"><img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Maintained-Yes-green.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Language-JavaScript-yellow.svg" /></a>
+  <img src="https://files.catbox.moe/sidq95.jpg" width="300" height="300" style="border-radius:50%;">
+</p>
+
+<p align="center">
+  <b>A Powerful & Stylish WhatsApp MD Bot</b><br>
+  Multi-device, Fully Customizable & Smooth Performance 🚀
 </p>
 
 ---
 
-## ✨ Features
-- ✅ Auto Sticker  
-- ✅ Auto React & Custom Emojis  
-- ✅ Anti Delete / Anti ViewOnce  
-- ✅ Group Management Tools  
-- ✅ Menu with Stylish UI  
-- ✅ Always Online / Auto Typing / Recording  
-- ✅ Status Seen + Auto Reply  
-- ✅ Fun Commands + Downloader Tools  
+## ⚡ Features
+- Auto Reply, Auto Sticker, Auto Status Seen ✅  
+- Anti Delete, Anti Link, Anti Bad Word 🚫  
+- Welcome / Goodbye Messages 🎉  
+- Always Online, Auto Typing & Recording 📝  
+- Mention Reply, Custom Reactions 💬  
+- Owner Controls & Admin Events 🔥  
 
 ---
 
-## 🔥 Deploy Instructions
-
-### 1️⃣ Get SESSION_ID
-1. Open [Pairing Site](https://long-otha-anayatking-3e195191.koyeb.app/)  
-2. Pair with your WhatsApp  
-3. Copy the generated **SESSION_ID**  
-
----
-
-### 2️⃣ Deploy to Koyeb (Recommended)
-- Fork this repo  
-- Go to [Koyeb Dashboard](https://app.koyeb.com/)  
-- Create new service → Link GitHub Repo  
-- Select **Dockerfile** build  
-- Add Environment Variables:  
-  - `SESSION_ID=xxxxxxxxxx`  
-  - `OWNER_NUMBER=923xxxxxxx`  
-  - `BOT_NAME=QADEER_MD`  
+## 📦 Requirements
+- Node.js 18+  
+- FFmpeg, WebP, ImageMagick  
+- WhatsApp Number for Pairing  
+- Koyeb / Heroku / Termux Account  
 
 ---
 
-### 3️⃣ Deploy to Heroku
-- Connect GitHub repo in Heroku  
-- Add buildpacks:  
-  - `heroku/nodejs`  
-- Set same Environment Variables (SESSION_ID, OWNER_NUMBER, BOT_NAME)  
-- Deploy branch → Done ✅  
+## 🚀 Deployment Guide
+
+### 🔹 1. Pairing Code
+1. Visit your pairing site:  
+   👉 [Click Here to Pair](https://long-otha-anayatking-3e195191.koyeb.app/)  
+2. Scan QR or enter number to get **SESSION_ID**.  
+3. Copy the code and paste it in `app.json` or `config.js`.
 
 ---
 
-### 4️⃣ Run in Termux (Optional)
+### 🔹 2. Deploy to **Koyeb**
 ```bash
-pkg update && pkg upgrade -y
-pkg install git nodejs ffmpeg imagemagick -y
-git clone https://github.com/qadeer-xmd/QADEER_MD
+git clone https://github.com/qadeer-xmd/QADEER_MD.git
 cd QADEER_MD
 npm install
-node index.js
+npm start
