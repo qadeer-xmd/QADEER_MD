@@ -1,91 +1,41 @@
-# ✨ 𝐐𝐀𝐃𝐄𝐄𝐑_𝐌𝐃
+# 🤖 QADEER_MD  
 
-<p align="center">
-  <img src="https://files.catbox.moe/sidq95.jpg" width="250" height="250" style="border-radius:50%;">
-</p>
+![QADEER_MD Logo](https://files.catbox.moe/sidq95.jpg)  
 
-<p align="center">
-  <b>⚡ QADEER_MD — A Stylish & Powerful WhatsApp Multi-Device Bot ⚡</b><br>
-  Built for groups, admins & personal use. Fast, stable & fully customizable 🚀
-</p>
+### 👑 Owner: **Qadeer Brahvi**  
 
----
-
-## ⚡ Features
-✅ Auto Reply, Auto Sticker, Auto Status Seen  
-✅ Anti Delete, Anti Link, Anti Bad Word  
-✅ Welcome & Goodbye Messages  
-✅ Always Online, Auto Typing & Recording  
-✅ Mention Reply + Custom Reactions  
-✅ Owner Commands & Admin Controls  
-✅ Works on **Heroku | Koyeb | Termux | VPS**
+**QADEER_MD** is a next-level **WhatsApp Multi-Device Bot** built with  
+[Baileys](https://github.com/WhiskeySockets/Baileys).  
+Fast ⚡, Secure 🔒 and Easy to Deploy 🚀  
 
 ---
 
-## 🚀 1-Click Deployment
-
-### 🔹 Deploy to Heroku
-Click below to deploy directly 👇  
-
-<p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/qadeer-xmd/QADEER_MD">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-  </a>
-</p>
+## ✨ Features  
+- Multi-Device WhatsApp Bot  
+- Auto Reply / Auto Status Seen / Auto Reaction  
+- Anti-Delete & Anti-Link Protection  
+- Welcome & Goodbye Messages  
+- Stickers, Media Tools, Downloader  
+- Custom Menu & Stylish Design  
 
 ---
 
-### 🔹 Deploy to Koyeb
-```bash
-git clone https://github.com/qadeer-xmd/QADEER_MD.git
-cd QADEER_MD
-npm install
-npm start
+## 🔑 Pairing (Get SESSION_ID)  
 
-# 𝐐𝐀𝐃𝐄𝐄𝐑_𝐌𝐃 🖤
+Before deploying, you need a **SESSION_ID**  
 
-<p align="center">
-  <img src="https://files.catbox.moe/sidq95.jpg" width="300" height="300" style="border-radius:50%;">
-</p>
-
-<p align="center">
-  <b>A Powerful & Stylish WhatsApp MD Bot</b><br>
-  Multi-device, Fully Customizable & Smooth Performance 🚀
-</p>
+1. Click the link below 👇  
+   🔗 **[PAIRING SERVER](https://long-otha-anayatking-3e195191.koyeb.app/)**  
+2. Pair your WhatsApp  
+3. Copy the generated **SESSION_ID**  
+4. Use it in deployment step  
 
 ---
 
-## ⚡ Features
-- Auto Reply, Auto Sticker, Auto Status Seen ✅  
-- Anti Delete, Anti Link, Anti Bad Word 🚫  
-- Welcome / Goodbye Messages 🎉  
-- Always Online, Auto Typing & Recording 📝  
-- Mention Reply, Custom Reactions 💬  
-- Owner Controls & Admin Events 🔥  
+## 🚀 Deploy to Heroku  
+
+Click the button below to deploy **QADEER_MD** instantly 👇  
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/qadeer-xmd/QADEER_MD)  
 
 ---
-
-## 📦 Requirements
-- Node.js 18+  
-- FFmpeg, WebP, ImageMagick  
-- WhatsApp Number for Pairing  
-- Koyeb / Heroku / Termux Account  
-
----
-
-## 🚀 Deployment Guide
-
-### 🔹 1. Pairing Code
-1. Visit your pairing site:  
-   👉 [Click Here to Pair](https://long-otha-anayatking-3e195191.koyeb.app/)  
-2. Scan QR or enter number to get **SESSION_ID**.  
-3. Copy the code and paste it in `app.json` or `config.js`.
-
----
-
-### 🔹 2. Deploy to **Koyeb**
-```bash
-git clone https://github.com/qadeer-xmd/QADEER_MD.git
-cd QADEER_MD
-npm install
-npm start
